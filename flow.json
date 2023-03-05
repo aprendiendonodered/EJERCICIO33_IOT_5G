@@ -1,1 +1,225 @@
-[]
+[
+    {
+        "id": "099b2475ef64758f",
+        "type": "tab",
+        "label": "Flow 1",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "32b45af9a263ab01",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "aprendiendonodered.com",
+        "port": "8883",
+        "tls": "",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": true,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "90ef093dedf4837c",
+        "type": "mqtt in",
+        "z": "099b2475ef64758f",
+        "name": "",
+        "topic": "cursomqtt/enrique_MKR_1500/temperatura",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "32b45af9a263ab01",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 360,
+        "y": 80,
+        "wires": [
+            [
+                "1e3adba6ba166433"
+            ]
+        ]
+    },
+    {
+        "id": "1278e602dc1fc77c",
+        "type": "mqtt out",
+        "z": "099b2475ef64758f",
+        "name": "",
+        "topic": "cursomqtt/enrique_MKR_1500/ledrojo",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "32b45af9a263ab01",
+        "x": 630,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "1e3adba6ba166433",
+        "type": "debug",
+        "z": "099b2475ef64758f",
+        "name": "debug 1",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 660,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "9973fa3fc8cee049",
+        "type": "inject",
+        "z": "099b2475ef64758f",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "ON",
+        "payloadType": "str",
+        "x": 270,
+        "y": 180,
+        "wires": [
+            [
+                "1278e602dc1fc77c"
+            ]
+        ]
+    },
+    {
+        "id": "1d5c0d804bce3983",
+        "type": "inject",
+        "z": "099b2475ef64758f",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "OFF",
+        "payloadType": "str",
+        "x": 270,
+        "y": 240,
+        "wires": [
+            [
+                "1278e602dc1fc77c"
+            ]
+        ]
+    },
+    {
+        "id": "efc53ad71871c429",
+        "type": "mqtt in",
+        "z": "099b2475ef64758f",
+        "name": "",
+        "topic": "cursomqtt/enrique_MKR_1500/pulsador",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "32b45af9a263ab01",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 350,
+        "y": 320,
+        "wires": [
+            [
+                "6f0932088dac6ffa"
+            ]
+        ]
+    },
+    {
+        "id": "6f0932088dac6ffa",
+        "type": "debug",
+        "z": "099b2475ef64758f",
+        "name": "debug 2",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 620,
+        "y": 320,
+        "wires": []
+    },
+    {
+        "id": "f560e9a6b1a3a4b5",
+        "type": "mqtt in",
+        "z": "099b2475ef64758f",
+        "name": "",
+        "topic": "cursomqtt/enrique_MKR_1500/status",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "32b45af9a263ab01",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 350,
+        "y": 420,
+        "wires": [
+            [
+                "bb18c86588b2a409"
+            ]
+        ]
+    },
+    {
+        "id": "bb18c86588b2a409",
+        "type": "debug",
+        "z": "099b2475ef64758f",
+        "name": "debug 3",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 620,
+        "y": 420,
+        "wires": []
+    }
+]

@@ -77,12 +77,14 @@
             "4014009e81bb9bcd",
             "c6ebba5b4d5f6159",
             "dbd827b3da259faf",
-            "cdb2b2cf62700ae5"
+            "cdb2b2cf62700ae5",
+            "cd0b849668ca9d09",
+            "e51ace374f2e9920"
         ],
-        "x": 294,
+        "x": 134,
         "y": 499,
         "w": 692,
-        "h": 202
+        "h": 262
     },
     {
         "id": "7f80b691e96741a9",
@@ -101,10 +103,30 @@
             "c62a0517c5edaead",
             "59cc5b208874e116"
         ],
-        "x": 34,
-        "y": 739,
+        "x": 14,
+        "y": 799,
         "w": 872,
         "h": 142
+    },
+    {
+        "id": "573ddf8764497146",
+        "type": "group",
+        "z": "099b2475ef64758f",
+        "name": "Guardar en BBDD",
+        "style": {
+            "fill": "#bfdbef",
+            "label": true
+        },
+        "nodes": [
+            "b32235d8f4b07bd7",
+            "8097f988a3920483",
+            "ed70ffae9326e616",
+            "e44e9871c24e9760"
+        ],
+        "x": 14,
+        "y": 959,
+        "w": 912,
+        "h": 122
     },
     {
         "id": "32b45af9a263ab01",
@@ -138,7 +160,7 @@
         "id": "b1cd924a9d4337a3",
         "type": "ui_base",
         "theme": {
-            "name": "theme-light",
+            "name": "theme-dark",
             "lightTheme": {
                 "default": "#0094CE",
                 "baseColor": "#0094CE",
@@ -150,7 +172,8 @@
                 "default": "#097479",
                 "baseColor": "#097479",
                 "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
-                "edited": false
+                "edited": true,
+                "reset": false
             },
             "customTheme": {
                 "name": "Untitled Theme 1",
@@ -160,44 +183,44 @@
             },
             "themeState": {
                 "base-color": {
-                    "default": "#0094CE",
-                    "value": "#0094CE",
+                    "default": "#097479",
+                    "value": "#097479",
                     "edited": false
                 },
                 "page-titlebar-backgroundColor": {
-                    "value": "#0094CE",
+                    "value": "#097479",
                     "edited": false
                 },
                 "page-backgroundColor": {
-                    "value": "#fafafa",
-                    "edited": false
-                },
-                "page-sidebar-backgroundColor": {
-                    "value": "#ffffff",
-                    "edited": false
-                },
-                "group-textColor": {
-                    "value": "#1bbfff",
-                    "edited": false
-                },
-                "group-borderColor": {
-                    "value": "#ffffff",
-                    "edited": false
-                },
-                "group-backgroundColor": {
-                    "value": "#ffffff",
-                    "edited": false
-                },
-                "widget-textColor": {
                     "value": "#111111",
                     "edited": false
                 },
+                "page-sidebar-backgroundColor": {
+                    "value": "#333333",
+                    "edited": false
+                },
+                "group-textColor": {
+                    "value": "#0eb8c0",
+                    "edited": false
+                },
+                "group-borderColor": {
+                    "value": "#555555",
+                    "edited": false
+                },
+                "group-backgroundColor": {
+                    "value": "#333333",
+                    "edited": false
+                },
+                "widget-textColor": {
+                    "value": "#eeeeee",
+                    "edited": false
+                },
                 "widget-backgroundColor": {
-                    "value": "#0094ce",
+                    "value": "#097479",
                     "edited": false
                 },
                 "widget-borderColor": {
-                    "value": "#ffffff",
+                    "value": "#333333",
                     "edited": false
                 },
                 "base-font": {
@@ -294,6 +317,20 @@
         "height": 1
     },
     {
+        "id": "fe8cb7ea3f6ce3ed",
+        "type": "influxdb",
+        "hostname": "https://aprendiendonodered.com/",
+        "port": "8086",
+        "protocol": "http",
+        "database": "database",
+        "name": "",
+        "usetls": false,
+        "tls": "",
+        "influxdbVersion": "2.0",
+        "url": "https://aprendiendonodered.com:8086",
+        "rejectUnauthorized": true
+    },
+    {
         "id": "90ef093dedf4837c",
         "type": "mqtt in",
         "z": "099b2475ef64758f",
@@ -324,7 +361,7 @@
         "z": "099b2475ef64758f",
         "g": "5c53e2699a5e9d13",
         "name": "debug 1",
-        "active": true,
+        "active": false,
         "tosidebar": true,
         "console": false,
         "tostatus": false,
@@ -349,8 +386,8 @@
         "rap": true,
         "rh": 0,
         "inputs": 0,
-        "x": 210,
-        "y": 780,
+        "x": 190,
+        "y": 840,
         "wires": [
             [
                 "cd71bb17ae70c602"
@@ -386,7 +423,7 @@
         "z": "099b2475ef64758f",
         "g": "2786cfeef397ebf8",
         "name": "debug 3",
-        "active": true,
+        "active": false,
         "tosidebar": true,
         "console": false,
         "tostatus": false,
@@ -500,7 +537,7 @@
         "z": "099b2475ef64758f",
         "g": "5c53e2699a5e9d13",
         "name": "debug 4",
-        "active": true,
+        "active": false,
         "tosidebar": true,
         "console": false,
         "tostatus": false,
@@ -615,7 +652,7 @@
         "z": "099b2475ef64758f",
         "g": "5c53e2699a5e9d13",
         "name": "debug 5",
-        "active": true,
+        "active": false,
         "tosidebar": true,
         "console": false,
         "tostatus": false,
@@ -760,7 +797,7 @@
         "z": "099b2475ef64758f",
         "g": "2786cfeef397ebf8",
         "name": "debug 6",
-        "active": true,
+        "active": false,
         "tosidebar": true,
         "console": false,
         "tostatus": false,
@@ -832,7 +869,7 @@
         "z": "099b2475ef64758f",
         "g": "2786cfeef397ebf8",
         "name": "debug 7",
-        "active": true,
+        "active": false,
         "tosidebar": true,
         "console": false,
         "tostatus": false,
@@ -890,7 +927,7 @@
         "correl": "",
         "expiry": "",
         "broker": "32b45af9a263ab01",
-        "x": 790,
+        "x": 630,
         "y": 560,
         "wires": []
     },
@@ -915,7 +952,7 @@
         "checkall": "true",
         "repair": false,
         "outputs": 2,
-        "x": 370,
+        "x": 210,
         "y": 560,
         "wires": [
             [
@@ -947,7 +984,7 @@
         "checkall": "true",
         "repair": false,
         "outputs": 2,
-        "x": 370,
+        "x": 210,
         "y": 640,
         "wires": [
             [
@@ -978,7 +1015,7 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 520,
+        "x": 360,
         "y": 540,
         "wires": [
             [
@@ -1006,7 +1043,7 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 520,
+        "x": 360,
         "y": 580,
         "wires": [
             [
@@ -1029,7 +1066,7 @@
         "correl": "",
         "expiry": "",
         "broker": "32b45af9a263ab01",
-        "x": 800,
+        "x": 640,
         "y": 640,
         "wires": []
     },
@@ -1053,7 +1090,7 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 520,
+        "x": 360,
         "y": 620,
         "wires": [
             [
@@ -1081,7 +1118,7 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 520,
+        "x": 360,
         "y": 660,
         "wires": [
             [
@@ -1101,8 +1138,8 @@
         "upper": null,
         "mode": "increment",
         "outputs": "1",
-        "x": 480,
-        "y": 780,
+        "x": 460,
+        "y": 840,
         "wires": [
             [
                 "c62a0517c5edaead"
@@ -1130,8 +1167,8 @@
         "payloadType": "str",
         "topic": "topic",
         "topicType": "msg",
-        "x": 130,
-        "y": 840,
+        "x": 110,
+        "y": 900,
         "wires": [
             [
                 "59cc5b208874e116"
@@ -1162,8 +1199,8 @@
         "seg1": "20",
         "seg2": "25",
         "className": "",
-        "x": 830,
-        "y": 780,
+        "x": 810,
+        "y": 840,
         "wires": []
     },
     {
@@ -1186,8 +1223,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 660,
-        "y": 780,
+        "x": 640,
+        "y": 840,
         "wires": [
             [
                 "4936f2b2952f8a08"
@@ -1214,11 +1251,153 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 340,
-        "y": 840,
+        "x": 320,
+        "y": 900,
         "wires": [
             [
                 "cd71bb17ae70c602"
+            ]
+        ]
+    },
+    {
+        "id": "cd0b849668ca9d09",
+        "type": "ui_switch",
+        "z": "099b2475ef64758f",
+        "g": "94b40fbea8ca9d67",
+        "name": "",
+        "label": "switch",
+        "tooltip": "",
+        "group": "c8c0ad062a3bbbc7",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "ON",
+        "onvalueType": "str",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "OFF",
+        "offvalueType": "str",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 230,
+        "y": 720,
+        "wires": [
+            [
+                "e51ace374f2e9920"
+            ]
+        ]
+    },
+    {
+        "id": "e51ace374f2e9920",
+        "type": "mqtt out",
+        "z": "099b2475ef64758f",
+        "g": "94b40fbea8ca9d67",
+        "name": "",
+        "topic": "cursomqtt/enrique_MKR_1500/ledbuiltin",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "32b45af9a263ab01",
+        "x": 500,
+        "y": 720,
+        "wires": []
+    },
+    {
+        "id": "b32235d8f4b07bd7",
+        "type": "mqtt in",
+        "z": "099b2475ef64758f",
+        "g": "573ddf8764497146",
+        "name": "",
+        "topic": "cursomqtt/enrique_MKR_1500/#",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "32b45af9a263ab01",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 170,
+        "y": 1000,
+        "wires": [
+            [
+                "e44e9871c24e9760"
+            ]
+        ]
+    },
+    {
+        "id": "8097f988a3920483",
+        "type": "debug",
+        "z": "099b2475ef64758f",
+        "g": "573ddf8764497146",
+        "name": "debug 8",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 560,
+        "y": 1000,
+        "wires": []
+    },
+    {
+        "id": "ed70ffae9326e616",
+        "type": "influxdb out",
+        "z": "099b2475ef64758f",
+        "g": "573ddf8764497146",
+        "influxdb": "fe8cb7ea3f6ce3ed",
+        "name": "",
+        "measurement": "Enrique2",
+        "precision": "",
+        "retentionPolicy": "",
+        "database": "database",
+        "precisionV18FluxV20": "ms",
+        "retentionPolicyV18Flux": "",
+        "org": "aprendiendonodered",
+        "bucket": "curso 5G",
+        "x": 700,
+        "y": 1040,
+        "wires": []
+    },
+    {
+        "id": "e44e9871c24e9760",
+        "type": "change",
+        "z": "099b2475ef64758f",
+        "g": "573ddf8764497146",
+        "name": "Añade Tags",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "[{\"value\":$string(payload)},{\"tag\":topic}]",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 390,
+        "y": 1000,
+        "wires": [
+            [
+                "8097f988a3920483",
+                "ed70ffae9326e616"
             ]
         ]
     }

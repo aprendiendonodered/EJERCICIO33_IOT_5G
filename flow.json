@@ -2,7 +2,23 @@
     {
         "id": "099b2475ef64758f",
         "type": "tab",
-        "label": "Flow 1",
+        "label": "Enrique",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "0ddadc3a392cfe95",
+        "type": "tab",
+        "label": "Teo",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "9007e14c5bdddbd1",
+        "type": "tab",
+        "label": "Laybet",
         "disabled": false,
         "info": "",
         "env": []
@@ -79,11 +95,13 @@
             "dbd827b3da259faf",
             "cdb2b2cf62700ae5",
             "cd0b849668ca9d09",
-            "e51ace374f2e9920"
+            "e51ace374f2e9920",
+            "0436966989094782",
+            "4ccf7eea739e7fae"
         ],
         "x": 134,
         "y": 499,
-        "w": 692,
+        "w": 812,
         "h": 262
     },
     {
@@ -127,6 +145,232 @@
         "y": 959,
         "w": 912,
         "h": 122
+    },
+    {
+        "id": "f92bc901810c53d7",
+        "type": "group",
+        "z": "0ddadc3a392cfe95",
+        "name": "Datos Ambientales",
+        "style": {
+            "fill": "#ffff00",
+            "label": true
+        },
+        "nodes": [
+            "b4e62f29645bc801",
+            "49f1b8fbd052cc89",
+            "c9ac39c8618df581",
+            "b2b614ca17fee8c0",
+            "03256d6af6aa95e3",
+            "28ccc515778b24bd",
+            "d25d9ec6330771c7",
+            "d5a4d92f91dac25f",
+            "db32df8dc1c6ec19",
+            "7b576b8f95406fe9",
+            "52a4bf744af9def4",
+            "e92f0e5c261096ab"
+        ],
+        "x": 14,
+        "y": 19
+    },
+    {
+        "id": "15d943f16caee227",
+        "type": "group",
+        "z": "0ddadc3a392cfe95",
+        "name": "Estados",
+        "style": {
+            "fill": "#ffefbf",
+            "label": true
+        },
+        "nodes": [
+            "1f1f05b7a52bf049",
+            "6d2c379d23e88a3f",
+            "35523ecb43dc9935",
+            "120161e9218bf9b4",
+            "577037d611bb6446",
+            "d571b2aad75f2264",
+            "1eac1779678af483",
+            "9e35ad7364110d77",
+            "466ec4ee14c472bf"
+        ],
+        "x": 634,
+        "y": 19
+    },
+    {
+        "id": "cb1e166106ee33fc",
+        "type": "group",
+        "z": "0ddadc3a392cfe95",
+        "name": "Lógica Leds",
+        "style": {
+            "label": true,
+            "fill": "#ffbfbf"
+        },
+        "nodes": [
+            "a47c12ab8c572e78",
+            "77f08266038c9982",
+            "a293f5d5eff73e63",
+            "d0fbbe97e5d1f602",
+            "527579944ca3e166",
+            "d585eef2da85c642",
+            "b33efc0c37dbd13e",
+            "4a707f2cfe11b8e1",
+            "f9992f2881cb5ee1",
+            "f23b69ce1adf7e34",
+            "5f9e00fdfbe07c0d",
+            "121aa43c338c3c27"
+        ],
+        "x": 134,
+        "y": 499
+    },
+    {
+        "id": "4635e0b6f82db501",
+        "type": "group",
+        "z": "0ddadc3a392cfe95",
+        "name": "Contador",
+        "style": {
+            "fill": "#e3f3d3",
+            "label": true
+        },
+        "nodes": [
+            "8e5467f5e11f64d8",
+            "42316b727ed5fc14",
+            "2f19404b50b579b5",
+            "c7a7ed22685a25fd",
+            "0a3bd4938e551204",
+            "b47dbd3fa267afef"
+        ],
+        "x": 14,
+        "y": 799
+    },
+    {
+        "id": "07ccf3dcff7dde62",
+        "type": "group",
+        "z": "0ddadc3a392cfe95",
+        "name": "Guardar en BBDD",
+        "style": {
+            "fill": "#bfdbef",
+            "label": true
+        },
+        "nodes": [
+            "8c7849c4573ac303",
+            "a4e85233502d1187",
+            "399efe21c8cac661",
+            "9c0f077de8003304"
+        ],
+        "x": 14,
+        "y": 959
+    },
+    {
+        "id": "2384be9d29cafe67",
+        "type": "group",
+        "z": "9007e14c5bdddbd1",
+        "name": "Datos Ambientales",
+        "style": {
+            "fill": "#ffff00",
+            "label": true
+        },
+        "nodes": [
+            "7ee589268c4df6e8",
+            "68330bc39f61f9a8",
+            "21a36a4294b35460",
+            "69259a7868652932",
+            "927edabd6dc86bdf",
+            "0894242b5ce2fc46",
+            "01b70b31f5284d27",
+            "2545df3440b9964a",
+            "b551c2a6cc829ff0",
+            "3a369d38e4c30e89",
+            "ffe4ca5ef013cde6",
+            "157c8ef044050df0"
+        ],
+        "x": 14,
+        "y": 19
+    },
+    {
+        "id": "61b92c33227f1472",
+        "type": "group",
+        "z": "9007e14c5bdddbd1",
+        "name": "Estados",
+        "style": {
+            "fill": "#ffefbf",
+            "label": true
+        },
+        "nodes": [
+            "1e5c5eab51b94fa8",
+            "ec5bf99c71fc2f4c",
+            "982682f47c00e01b",
+            "3f710e44efbda441",
+            "789931945895f896",
+            "bf52fb52fb1d6566",
+            "06b7860eb407ecd2",
+            "d47050bcb6bad12a",
+            "1066e7c3e06487ea"
+        ],
+        "x": 634,
+        "y": 19
+    },
+    {
+        "id": "e206f9e4065ce243",
+        "type": "group",
+        "z": "9007e14c5bdddbd1",
+        "name": "Lógica Leds",
+        "style": {
+            "label": true,
+            "fill": "#ffbfbf"
+        },
+        "nodes": [
+            "7250c754c2683b61",
+            "72e6a90d8e9dcbfd",
+            "8666a2d694903ab1",
+            "99ea831974ce7c5f",
+            "f9e9c56ce242eec8",
+            "7d8833d6d6cdb0c1",
+            "22edfcd6386bca6f",
+            "4c5209c8ac9babd7",
+            "9694314e26bf9cfa",
+            "f1c8f991879cc5a9",
+            "6cba8af14236b0dc",
+            "64fd22f2aa640bd3"
+        ],
+        "x": 134,
+        "y": 499
+    },
+    {
+        "id": "7034096bc0b125e9",
+        "type": "group",
+        "z": "9007e14c5bdddbd1",
+        "name": "Contador",
+        "style": {
+            "fill": "#e3f3d3",
+            "label": true
+        },
+        "nodes": [
+            "911197635ae17d0e",
+            "a14c155d2f05f8e7",
+            "9cea06475349a8c3",
+            "6d0f5ebc4783cc14",
+            "3062ebd81b8e86a9",
+            "506c81b5ed1aad3c"
+        ],
+        "x": 14,
+        "y": 799
+    },
+    {
+        "id": "51bb0170c8339b2f",
+        "type": "group",
+        "z": "9007e14c5bdddbd1",
+        "name": "Guardar en BBDD",
+        "style": {
+            "fill": "#bfdbef",
+            "label": true
+        },
+        "nodes": [
+            "e1f2e41b2956fc0b",
+            "57a3896212fc17a8",
+            "03c598ab7cb79a4b",
+            "76c61253af5f5f03"
+        ],
+        "x": 14,
+        "y": 959
     },
     {
         "id": "32b45af9a263ab01",
@@ -257,7 +501,7 @@
     {
         "id": "6d3a289e6339ce84",
         "type": "ui_tab",
-        "name": "Curso 5G",
+        "name": "Curso 5G - Enrique",
         "icon": "dashboard",
         "order": 1,
         "disabled": false,
@@ -297,26 +541,6 @@
         "className": ""
     },
     {
-        "id": "2c2087a6979f2e31",
-        "type": "ui_spacer",
-        "z": "099b2475ef64758f",
-        "name": "spacer",
-        "group": "adf9de0bfa5d1172",
-        "order": 2,
-        "width": 2,
-        "height": 1
-    },
-    {
-        "id": "3a6603839ae2b387",
-        "type": "ui_spacer",
-        "z": "099b2475ef64758f",
-        "name": "spacer",
-        "group": "adf9de0bfa5d1172",
-        "order": 4,
-        "width": 2,
-        "height": 1
-    },
-    {
         "id": "fe8cb7ea3f6ce3ed",
         "type": "influxdb",
         "hostname": "https://aprendiendonodered.com/",
@@ -329,6 +553,150 @@
         "influxdbVersion": "2.0",
         "url": "https://aprendiendonodered.com:8086",
         "rejectUnauthorized": true
+    },
+    {
+        "id": "0caf3ae814196e50",
+        "type": "ui_tab",
+        "name": "Curso 5G - Teo",
+        "icon": "dashboard",
+        "order": 2,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "114fa23594ced0d3",
+        "type": "ui_tab",
+        "name": "Curso 5G - Laybet",
+        "icon": "dashboard",
+        "order": 3,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "d2d4e5e188b63ae7",
+        "type": "ui_group",
+        "name": "Estados",
+        "tab": "0caf3ae814196e50",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "9ddb02ab40ec6a67",
+        "type": "ui_group",
+        "name": "Datos Ambientales",
+        "tab": "0caf3ae814196e50",
+        "order": 2,
+        "disp": true,
+        "width": 9,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "49fa5299c109dab1",
+        "type": "ui_group",
+        "name": "Contador Pulsos",
+        "tab": "0caf3ae814196e50",
+        "order": 3,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "aba579d46f81eb65",
+        "type": "ui_group",
+        "name": "Estados",
+        "tab": "114fa23594ced0d3",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "da5263e30321526a",
+        "type": "ui_group",
+        "name": "Datos Ambientales",
+        "tab": "114fa23594ced0d3",
+        "order": 2,
+        "disp": true,
+        "width": 9,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "d2aa21de1eba43db",
+        "type": "ui_group",
+        "name": "Contador Pulsos",
+        "tab": "114fa23594ced0d3",
+        "order": 3,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "7a2b14ecb04f46e4",
+        "type": "ui_spacer",
+        "z": "099b2475ef64758f",
+        "name": "spacer",
+        "group": "adf9de0bfa5d1172",
+        "order": 2,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "0bffbe4a45f4f12b",
+        "type": "ui_spacer",
+        "z": "099b2475ef64758f",
+        "name": "spacer",
+        "group": "adf9de0bfa5d1172",
+        "order": 4,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "4afbbcb034435c88",
+        "type": "ui_spacer",
+        "z": "099b2475ef64758f",
+        "name": "spacer",
+        "group": "49fa5299c109dab1",
+        "order": 2,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "90c6987f5e079629",
+        "type": "ui_spacer",
+        "z": "099b2475ef64758f",
+        "name": "spacer",
+        "group": "49fa5299c109dab1",
+        "order": 4,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "2ea623ca3b644d60",
+        "type": "ui_spacer",
+        "z": "099b2475ef64758f",
+        "name": "spacer",
+        "group": "d2aa21de1eba43db",
+        "order": 2,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "af34638acfcbdc61",
+        "type": "ui_spacer",
+        "z": "099b2475ef64758f",
+        "name": "spacer",
+        "group": "d2aa21de1eba43db",
+        "order": 4,
+        "width": 2,
+        "height": 1
     },
     {
         "id": "90ef093dedf4837c",
@@ -348,10 +716,10 @@
         "y": 100,
         "wires": [
             [
+                "43c4f0ded09ab579",
                 "1e3adba6ba166433",
                 "7f372ae8421099a1",
-                "bda292aba1946542",
-                "43c4f0ded09ab579"
+                "bda292aba1946542"
             ]
         ]
     },
@@ -927,7 +1295,7 @@
         "correl": "",
         "expiry": "",
         "broker": "32b45af9a263ab01",
-        "x": 630,
+        "x": 750,
         "y": 560,
         "wires": []
     },
@@ -1019,7 +1387,7 @@
         "y": 540,
         "wires": [
             [
-                "1278e602dc1fc77c"
+                "0436966989094782"
             ]
         ]
     },
@@ -1047,7 +1415,7 @@
         "y": 580,
         "wires": [
             [
-                "1278e602dc1fc77c"
+                "0436966989094782"
             ]
         ]
     },
@@ -1066,7 +1434,7 @@
         "correl": "",
         "expiry": "",
         "broker": "32b45af9a263ab01",
-        "x": 640,
+        "x": 760,
         "y": 640,
         "wires": []
     },
@@ -1094,7 +1462,7 @@
         "y": 620,
         "wires": [
             [
-                "c6ebba5b4d5f6159"
+                "4ccf7eea739e7fae"
             ]
         ]
     },
@@ -1122,7 +1490,7 @@
         "y": 660,
         "wires": [
             [
-                "c6ebba5b4d5f6159"
+                "4ccf7eea739e7fae"
             ]
         ]
     },
@@ -1265,10 +1633,10 @@
         "z": "099b2475ef64758f",
         "g": "94b40fbea8ca9d67",
         "name": "",
-        "label": "switch",
+        "label": "led builtin",
         "tooltip": "",
         "group": "c8c0ad062a3bbbc7",
-        "order": 3,
+        "order": 4,
         "width": 0,
         "height": 0,
         "passthru": true,
@@ -1286,7 +1654,7 @@
         "offcolor": "",
         "animate": false,
         "className": "",
-        "x": 230,
+        "x": 240,
         "y": 720,
         "wires": [
             [
@@ -1398,6 +1766,2274 @@
             [
                 "8097f988a3920483",
                 "ed70ffae9326e616"
+            ]
+        ]
+    },
+    {
+        "id": "0436966989094782",
+        "type": "rbe",
+        "z": "099b2475ef64758f",
+        "g": "94b40fbea8ca9d67",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 530,
+        "y": 560,
+        "wires": [
+            [
+                "1278e602dc1fc77c"
+            ]
+        ]
+    },
+    {
+        "id": "4ccf7eea739e7fae",
+        "type": "rbe",
+        "z": "099b2475ef64758f",
+        "g": "94b40fbea8ca9d67",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 530,
+        "y": 640,
+        "wires": [
+            [
+                "c6ebba5b4d5f6159"
+            ]
+        ]
+    },
+    {
+        "id": "b4e62f29645bc801",
+        "type": "mqtt in",
+        "z": "0ddadc3a392cfe95",
+        "g": "f92bc901810c53d7",
+        "name": "",
+        "topic": "cursomqtt/TEO_MKR_1500/temperatura",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "32b45af9a263ab01",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 200,
+        "y": 100,
+        "wires": [
+            [
+                "77f08266038c9982",
+                "49f1b8fbd052cc89",
+                "c9ac39c8618df581",
+                "b2b614ca17fee8c0"
+            ]
+        ]
+    },
+    {
+        "id": "49f1b8fbd052cc89",
+        "type": "debug",
+        "z": "0ddadc3a392cfe95",
+        "g": "f92bc901810c53d7",
+        "name": "debug 9",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 500,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "c9ac39c8618df581",
+        "type": "ui_gauge",
+        "z": "0ddadc3a392cfe95",
+        "g": "f92bc901810c53d7",
+        "name": "",
+        "group": "9ddb02ab40ec6a67",
+        "order": 1,
+        "width": 3,
+        "height": 3,
+        "gtype": "gage",
+        "title": "Temperatura",
+        "label": "ºC",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "30",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "21",
+        "seg2": "22",
+        "className": "",
+        "x": 510,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "b2b614ca17fee8c0",
+        "type": "ui_chart",
+        "z": "0ddadc3a392cfe95",
+        "g": "f92bc901810c53d7",
+        "name": "",
+        "group": "9ddb02ab40ec6a67",
+        "order": 4,
+        "width": 3,
+        "height": 3,
+        "label": "Temperatura",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 510,
+        "y": 140,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "03256d6af6aa95e3",
+        "type": "mqtt in",
+        "z": "0ddadc3a392cfe95",
+        "g": "f92bc901810c53d7",
+        "name": "",
+        "topic": "cursomqtt/TEO_MKR_1500/humedad",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "32b45af9a263ab01",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 190,
+        "y": 240,
+        "wires": [
+            [
+                "28ccc515778b24bd",
+                "d25d9ec6330771c7",
+                "d5a4d92f91dac25f"
+            ]
+        ]
+    },
+    {
+        "id": "28ccc515778b24bd",
+        "type": "debug",
+        "z": "0ddadc3a392cfe95",
+        "g": "f92bc901810c53d7",
+        "name": "debug 10",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 500,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "d25d9ec6330771c7",
+        "type": "ui_gauge",
+        "z": "0ddadc3a392cfe95",
+        "g": "f92bc901810c53d7",
+        "name": "",
+        "group": "9ddb02ab40ec6a67",
+        "order": 2,
+        "width": 3,
+        "height": 3,
+        "gtype": "gage",
+        "title": "Humedad",
+        "label": "%",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "70",
+        "seg2": "80",
+        "className": "",
+        "x": 500,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "d5a4d92f91dac25f",
+        "type": "ui_chart",
+        "z": "0ddadc3a392cfe95",
+        "g": "f92bc901810c53d7",
+        "name": "",
+        "group": "9ddb02ab40ec6a67",
+        "order": 5,
+        "width": 3,
+        "height": 3,
+        "label": "Humedad",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 500,
+        "y": 280,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "db32df8dc1c6ec19",
+        "type": "mqtt in",
+        "z": "0ddadc3a392cfe95",
+        "g": "f92bc901810c53d7",
+        "name": "",
+        "topic": "cursomqtt/TEO_MKR_1500/iluminacion",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "32b45af9a263ab01",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 190,
+        "y": 380,
+        "wires": [
+            [
+                "7b576b8f95406fe9",
+                "52a4bf744af9def4",
+                "e92f0e5c261096ab",
+                "a293f5d5eff73e63"
+            ]
+        ]
+    },
+    {
+        "id": "7b576b8f95406fe9",
+        "type": "debug",
+        "z": "0ddadc3a392cfe95",
+        "g": "f92bc901810c53d7",
+        "name": "debug 11",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 500,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "52a4bf744af9def4",
+        "type": "ui_gauge",
+        "z": "0ddadc3a392cfe95",
+        "g": "f92bc901810c53d7",
+        "name": "",
+        "group": "9ddb02ab40ec6a67",
+        "order": 3,
+        "width": 3,
+        "height": 3,
+        "gtype": "gage",
+        "title": "Iluminacion",
+        "label": "lux",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "1000",
+        "colors": [
+            "#ca3838",
+            "#e6e600",
+            "#00b500"
+        ],
+        "seg1": "500",
+        "seg2": "600",
+        "className": "",
+        "x": 510,
+        "y": 380,
+        "wires": []
+    },
+    {
+        "id": "e92f0e5c261096ab",
+        "type": "ui_chart",
+        "z": "0ddadc3a392cfe95",
+        "g": "f92bc901810c53d7",
+        "name": "",
+        "group": "9ddb02ab40ec6a67",
+        "order": 6,
+        "width": 3,
+        "height": 3,
+        "label": "Iluminacion",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 510,
+        "y": 420,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "1f1f05b7a52bf049",
+        "type": "mqtt in",
+        "z": "0ddadc3a392cfe95",
+        "g": "15d943f16caee227",
+        "name": "",
+        "topic": "cursomqtt/TEO_MKR_1500/status",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "32b45af9a263ab01",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 800,
+        "y": 100,
+        "wires": [
+            [
+                "6d2c379d23e88a3f",
+                "35523ecb43dc9935"
+            ]
+        ]
+    },
+    {
+        "id": "6d2c379d23e88a3f",
+        "type": "debug",
+        "z": "0ddadc3a392cfe95",
+        "g": "15d943f16caee227",
+        "name": "debug 12",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1080,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "35523ecb43dc9935",
+        "type": "ui_led",
+        "z": "0ddadc3a392cfe95",
+        "g": "15d943f16caee227",
+        "order": 1,
+        "group": "d2d4e5e188b63ae7",
+        "width": 0,
+        "height": 0,
+        "label": "Estado Arduino",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#ff0000",
+                "value": "KO",
+                "valueType": "str"
+            },
+            {
+                "color": "#008000",
+                "value": "OK",
+                "valueType": "str"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "",
+        "x": 1070,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "120161e9218bf9b4",
+        "type": "mqtt in",
+        "z": "0ddadc3a392cfe95",
+        "g": "15d943f16caee227",
+        "name": "",
+        "topic": "cursomqtt/TEO_MKR_1500/ledrojo",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "32b45af9a263ab01",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 800,
+        "y": 180,
+        "wires": [
+            [
+                "577037d611bb6446",
+                "d571b2aad75f2264"
+            ]
+        ]
+    },
+    {
+        "id": "577037d611bb6446",
+        "type": "debug",
+        "z": "0ddadc3a392cfe95",
+        "g": "15d943f16caee227",
+        "name": "debug 13",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1080,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "d571b2aad75f2264",
+        "type": "ui_led",
+        "z": "0ddadc3a392cfe95",
+        "g": "15d943f16caee227",
+        "order": 2,
+        "group": "d2d4e5e188b63ae7",
+        "width": 0,
+        "height": 0,
+        "label": "Led Rojo",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#ff0000",
+                "value": "ON",
+                "valueType": "str"
+            },
+            {
+                "color": "#000000",
+                "value": "OFF",
+                "valueType": "str"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "",
+        "x": 1070,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "1eac1779678af483",
+        "type": "mqtt in",
+        "z": "0ddadc3a392cfe95",
+        "g": "15d943f16caee227",
+        "name": "",
+        "topic": "cursomqtt/TEO_MKR_1500/ledamarillo",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "32b45af9a263ab01",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 810,
+        "y": 260,
+        "wires": [
+            [
+                "9e35ad7364110d77",
+                "466ec4ee14c472bf"
+            ]
+        ]
+    },
+    {
+        "id": "9e35ad7364110d77",
+        "type": "debug",
+        "z": "0ddadc3a392cfe95",
+        "g": "15d943f16caee227",
+        "name": "debug 14",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1080,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "466ec4ee14c472bf",
+        "type": "ui_led",
+        "z": "0ddadc3a392cfe95",
+        "g": "15d943f16caee227",
+        "order": 3,
+        "group": "d2d4e5e188b63ae7",
+        "width": 0,
+        "height": 0,
+        "label": "Led Amarillo",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#ffff00",
+                "value": "ON",
+                "valueType": "str"
+            },
+            {
+                "color": "#000000",
+                "value": "OFF",
+                "valueType": "str"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "",
+        "x": 1070,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "a47c12ab8c572e78",
+        "type": "mqtt out",
+        "z": "0ddadc3a392cfe95",
+        "g": "cb1e166106ee33fc",
+        "name": "",
+        "topic": "cursomqtt/TEO_MKR_1500/ledrojo",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "32b45af9a263ab01",
+        "x": 740,
+        "y": 560,
+        "wires": []
+    },
+    {
+        "id": "77f08266038c9982",
+        "type": "switch",
+        "z": "0ddadc3a392cfe95",
+        "g": "cb1e166106ee33fc",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "gt",
+                "v": "22",
+                "vt": "str"
+            },
+            {
+                "t": "else"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 210,
+        "y": 560,
+        "wires": [
+            [
+                "d0fbbe97e5d1f602"
+            ],
+            [
+                "527579944ca3e166"
+            ]
+        ]
+    },
+    {
+        "id": "a293f5d5eff73e63",
+        "type": "switch",
+        "z": "0ddadc3a392cfe95",
+        "g": "cb1e166106ee33fc",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "lt",
+                "v": "500",
+                "vt": "str"
+            },
+            {
+                "t": "else"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 210,
+        "y": 640,
+        "wires": [
+            [
+                "b33efc0c37dbd13e"
+            ],
+            [
+                "4a707f2cfe11b8e1"
+            ]
+        ]
+    },
+    {
+        "id": "d0fbbe97e5d1f602",
+        "type": "change",
+        "z": "0ddadc3a392cfe95",
+        "g": "cb1e166106ee33fc",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "ON",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 360,
+        "y": 540,
+        "wires": [
+            [
+                "5f9e00fdfbe07c0d"
+            ]
+        ]
+    },
+    {
+        "id": "527579944ca3e166",
+        "type": "change",
+        "z": "0ddadc3a392cfe95",
+        "g": "cb1e166106ee33fc",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "OFF",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 360,
+        "y": 580,
+        "wires": [
+            [
+                "5f9e00fdfbe07c0d"
+            ]
+        ]
+    },
+    {
+        "id": "d585eef2da85c642",
+        "type": "mqtt out",
+        "z": "0ddadc3a392cfe95",
+        "g": "cb1e166106ee33fc",
+        "name": "",
+        "topic": "cursomqtt/TEO_MKR_1500/ledamarillo",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "32b45af9a263ab01",
+        "x": 760,
+        "y": 640,
+        "wires": []
+    },
+    {
+        "id": "b33efc0c37dbd13e",
+        "type": "change",
+        "z": "0ddadc3a392cfe95",
+        "g": "cb1e166106ee33fc",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "ON",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 360,
+        "y": 620,
+        "wires": [
+            [
+                "121aa43c338c3c27"
+            ]
+        ]
+    },
+    {
+        "id": "4a707f2cfe11b8e1",
+        "type": "change",
+        "z": "0ddadc3a392cfe95",
+        "g": "cb1e166106ee33fc",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "OFF",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 360,
+        "y": 660,
+        "wires": [
+            [
+                "121aa43c338c3c27"
+            ]
+        ]
+    },
+    {
+        "id": "f9992f2881cb5ee1",
+        "type": "ui_switch",
+        "z": "0ddadc3a392cfe95",
+        "g": "cb1e166106ee33fc",
+        "name": "",
+        "label": "led builtin",
+        "tooltip": "",
+        "group": "d2d4e5e188b63ae7",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "ON",
+        "onvalueType": "str",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "OFF",
+        "offvalueType": "str",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 240,
+        "y": 720,
+        "wires": [
+            [
+                "f23b69ce1adf7e34"
+            ]
+        ]
+    },
+    {
+        "id": "f23b69ce1adf7e34",
+        "type": "mqtt out",
+        "z": "0ddadc3a392cfe95",
+        "g": "cb1e166106ee33fc",
+        "name": "",
+        "topic": "cursomqtt/TEO_MKR_1500/ledbuiltin",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "32b45af9a263ab01",
+        "x": 490,
+        "y": 720,
+        "wires": []
+    },
+    {
+        "id": "5f9e00fdfbe07c0d",
+        "type": "rbe",
+        "z": "0ddadc3a392cfe95",
+        "g": "cb1e166106ee33fc",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 530,
+        "y": 560,
+        "wires": [
+            [
+                "a47c12ab8c572e78"
+            ]
+        ]
+    },
+    {
+        "id": "121aa43c338c3c27",
+        "type": "rbe",
+        "z": "0ddadc3a392cfe95",
+        "g": "cb1e166106ee33fc",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 530,
+        "y": 640,
+        "wires": [
+            [
+                "d585eef2da85c642"
+            ]
+        ]
+    },
+    {
+        "id": "8e5467f5e11f64d8",
+        "type": "mqtt in",
+        "z": "0ddadc3a392cfe95",
+        "g": "4635e0b6f82db501",
+        "name": "",
+        "topic": "cursomqtt/TEO_MKR_1500/pulsador",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "32b45af9a263ab01",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 180,
+        "y": 840,
+        "wires": [
+            [
+                "42316b727ed5fc14"
+            ]
+        ]
+    },
+    {
+        "id": "42316b727ed5fc14",
+        "type": "counter",
+        "z": "0ddadc3a392cfe95",
+        "g": "4635e0b6f82db501",
+        "name": "",
+        "init": "0",
+        "step": "1",
+        "lower": null,
+        "upper": null,
+        "mode": "increment",
+        "outputs": "1",
+        "x": 460,
+        "y": 840,
+        "wires": [
+            [
+                "0a3bd4938e551204"
+            ]
+        ]
+    },
+    {
+        "id": "2f19404b50b579b5",
+        "type": "ui_button",
+        "z": "0ddadc3a392cfe95",
+        "g": "4635e0b6f82db501",
+        "name": "",
+        "group": "49fa5299c109dab1",
+        "order": 3,
+        "width": 2,
+        "height": 1,
+        "passthru": false,
+        "label": "Reset",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "0",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 110,
+        "y": 900,
+        "wires": [
+            [
+                "b47dbd3fa267afef"
+            ]
+        ]
+    },
+    {
+        "id": "c7a7ed22685a25fd",
+        "type": "ui_gauge",
+        "z": "0ddadc3a392cfe95",
+        "g": "4635e0b6f82db501",
+        "name": "",
+        "group": "49fa5299c109dab1",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "gtype": "donut",
+        "title": "gauge",
+        "label": "pulsos",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "30",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "20",
+        "seg2": "25",
+        "className": "",
+        "x": 810,
+        "y": 840,
+        "wires": []
+    },
+    {
+        "id": "0a3bd4938e551204",
+        "type": "change",
+        "z": "0ddadc3a392cfe95",
+        "g": "4635e0b6f82db501",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "count",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 640,
+        "y": 840,
+        "wires": [
+            [
+                "c7a7ed22685a25fd"
+            ]
+        ]
+    },
+    {
+        "id": "b47dbd3fa267afef",
+        "type": "change",
+        "z": "0ddadc3a392cfe95",
+        "g": "4635e0b6f82db501",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "reset",
+                "pt": "msg",
+                "to": "ok",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 320,
+        "y": 900,
+        "wires": [
+            [
+                "42316b727ed5fc14"
+            ]
+        ]
+    },
+    {
+        "id": "8c7849c4573ac303",
+        "type": "mqtt in",
+        "z": "0ddadc3a392cfe95",
+        "g": "07ccf3dcff7dde62",
+        "name": "",
+        "topic": "cursomqtt/TEO_MKR_1500/#",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "32b45af9a263ab01",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 160,
+        "y": 1000,
+        "wires": [
+            [
+                "9c0f077de8003304"
+            ]
+        ]
+    },
+    {
+        "id": "a4e85233502d1187",
+        "type": "debug",
+        "z": "0ddadc3a392cfe95",
+        "g": "07ccf3dcff7dde62",
+        "name": "debug 15",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 560,
+        "y": 1000,
+        "wires": []
+    },
+    {
+        "id": "399efe21c8cac661",
+        "type": "influxdb out",
+        "z": "0ddadc3a392cfe95",
+        "g": "07ccf3dcff7dde62",
+        "influxdb": "fe8cb7ea3f6ce3ed",
+        "name": "",
+        "measurement": "Teo",
+        "precision": "",
+        "retentionPolicy": "",
+        "database": "database",
+        "precisionV18FluxV20": "ms",
+        "retentionPolicyV18Flux": "",
+        "org": "aprendiendonodered",
+        "bucket": "curso 5G",
+        "x": 680,
+        "y": 1040,
+        "wires": []
+    },
+    {
+        "id": "9c0f077de8003304",
+        "type": "change",
+        "z": "0ddadc3a392cfe95",
+        "g": "07ccf3dcff7dde62",
+        "name": "Añade Tags",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "[{\"value\":$string(payload)},{\"tag\":topic}]",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 390,
+        "y": 1000,
+        "wires": [
+            [
+                "a4e85233502d1187",
+                "399efe21c8cac661"
+            ]
+        ]
+    },
+    {
+        "id": "7ee589268c4df6e8",
+        "type": "mqtt in",
+        "z": "9007e14c5bdddbd1",
+        "g": "2384be9d29cafe67",
+        "name": "",
+        "topic": "cursomqtt/laybet_MKR_1500/temperatura",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "32b45af9a263ab01",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 200,
+        "y": 100,
+        "wires": [
+            [
+                "72e6a90d8e9dcbfd",
+                "68330bc39f61f9a8",
+                "21a36a4294b35460",
+                "69259a7868652932"
+            ]
+        ]
+    },
+    {
+        "id": "68330bc39f61f9a8",
+        "type": "debug",
+        "z": "9007e14c5bdddbd1",
+        "g": "2384be9d29cafe67",
+        "name": "debug 16",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 500,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "21a36a4294b35460",
+        "type": "ui_gauge",
+        "z": "9007e14c5bdddbd1",
+        "g": "2384be9d29cafe67",
+        "name": "",
+        "group": "da5263e30321526a",
+        "order": 1,
+        "width": 3,
+        "height": 3,
+        "gtype": "gage",
+        "title": "Temperatura",
+        "label": "ºC",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "30",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "21",
+        "seg2": "22",
+        "className": "",
+        "x": 510,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "69259a7868652932",
+        "type": "ui_chart",
+        "z": "9007e14c5bdddbd1",
+        "g": "2384be9d29cafe67",
+        "name": "",
+        "group": "da5263e30321526a",
+        "order": 4,
+        "width": 3,
+        "height": 3,
+        "label": "Temperatura",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 510,
+        "y": 140,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "927edabd6dc86bdf",
+        "type": "mqtt in",
+        "z": "9007e14c5bdddbd1",
+        "g": "2384be9d29cafe67",
+        "name": "",
+        "topic": "cursomqtt/laybet_MKR_1500/humedad",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "32b45af9a263ab01",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 190,
+        "y": 240,
+        "wires": [
+            [
+                "0894242b5ce2fc46",
+                "01b70b31f5284d27",
+                "2545df3440b9964a"
+            ]
+        ]
+    },
+    {
+        "id": "0894242b5ce2fc46",
+        "type": "debug",
+        "z": "9007e14c5bdddbd1",
+        "g": "2384be9d29cafe67",
+        "name": "debug 17",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 500,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "01b70b31f5284d27",
+        "type": "ui_gauge",
+        "z": "9007e14c5bdddbd1",
+        "g": "2384be9d29cafe67",
+        "name": "",
+        "group": "da5263e30321526a",
+        "order": 2,
+        "width": 3,
+        "height": 3,
+        "gtype": "gage",
+        "title": "Humedad",
+        "label": "%",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "70",
+        "seg2": "80",
+        "className": "",
+        "x": 500,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "2545df3440b9964a",
+        "type": "ui_chart",
+        "z": "9007e14c5bdddbd1",
+        "g": "2384be9d29cafe67",
+        "name": "",
+        "group": "da5263e30321526a",
+        "order": 5,
+        "width": 3,
+        "height": 3,
+        "label": "Humedad",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 500,
+        "y": 280,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "b551c2a6cc829ff0",
+        "type": "mqtt in",
+        "z": "9007e14c5bdddbd1",
+        "g": "2384be9d29cafe67",
+        "name": "",
+        "topic": "cursomqtt/laybet_MKR_1500/iluminacion",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "32b45af9a263ab01",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 200,
+        "y": 380,
+        "wires": [
+            [
+                "3a369d38e4c30e89",
+                "ffe4ca5ef013cde6",
+                "157c8ef044050df0",
+                "8666a2d694903ab1"
+            ]
+        ]
+    },
+    {
+        "id": "3a369d38e4c30e89",
+        "type": "debug",
+        "z": "9007e14c5bdddbd1",
+        "g": "2384be9d29cafe67",
+        "name": "debug 18",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 500,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "ffe4ca5ef013cde6",
+        "type": "ui_gauge",
+        "z": "9007e14c5bdddbd1",
+        "g": "2384be9d29cafe67",
+        "name": "",
+        "group": "da5263e30321526a",
+        "order": 3,
+        "width": 3,
+        "height": 3,
+        "gtype": "gage",
+        "title": "Iluminacion",
+        "label": "lux",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "1000",
+        "colors": [
+            "#ca3838",
+            "#e6e600",
+            "#00b500"
+        ],
+        "seg1": "500",
+        "seg2": "600",
+        "className": "",
+        "x": 510,
+        "y": 380,
+        "wires": []
+    },
+    {
+        "id": "157c8ef044050df0",
+        "type": "ui_chart",
+        "z": "9007e14c5bdddbd1",
+        "g": "2384be9d29cafe67",
+        "name": "",
+        "group": "da5263e30321526a",
+        "order": 6,
+        "width": 3,
+        "height": 3,
+        "label": "Iluminacion",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 510,
+        "y": 420,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "1e5c5eab51b94fa8",
+        "type": "mqtt in",
+        "z": "9007e14c5bdddbd1",
+        "g": "61b92c33227f1472",
+        "name": "",
+        "topic": "cursomqtt/laybet_MKR_1500/status",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "32b45af9a263ab01",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 800,
+        "y": 100,
+        "wires": [
+            [
+                "ec5bf99c71fc2f4c",
+                "982682f47c00e01b"
+            ]
+        ]
+    },
+    {
+        "id": "ec5bf99c71fc2f4c",
+        "type": "debug",
+        "z": "9007e14c5bdddbd1",
+        "g": "61b92c33227f1472",
+        "name": "debug 19",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1080,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "982682f47c00e01b",
+        "type": "ui_led",
+        "z": "9007e14c5bdddbd1",
+        "g": "61b92c33227f1472",
+        "order": 1,
+        "group": "aba579d46f81eb65",
+        "width": 0,
+        "height": 0,
+        "label": "Estado Arduino",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#ff0000",
+                "value": "KO",
+                "valueType": "str"
+            },
+            {
+                "color": "#008000",
+                "value": "OK",
+                "valueType": "str"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "",
+        "x": 1070,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "3f710e44efbda441",
+        "type": "mqtt in",
+        "z": "9007e14c5bdddbd1",
+        "g": "61b92c33227f1472",
+        "name": "",
+        "topic": "cursomqtt/laybet_MKR_1500/ledrojo",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "32b45af9a263ab01",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 800,
+        "y": 180,
+        "wires": [
+            [
+                "789931945895f896",
+                "bf52fb52fb1d6566"
+            ]
+        ]
+    },
+    {
+        "id": "789931945895f896",
+        "type": "debug",
+        "z": "9007e14c5bdddbd1",
+        "g": "61b92c33227f1472",
+        "name": "debug 20",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1080,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "bf52fb52fb1d6566",
+        "type": "ui_led",
+        "z": "9007e14c5bdddbd1",
+        "g": "61b92c33227f1472",
+        "order": 2,
+        "group": "aba579d46f81eb65",
+        "width": 0,
+        "height": 0,
+        "label": "Led Rojo",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#ff0000",
+                "value": "ON",
+                "valueType": "str"
+            },
+            {
+                "color": "#000000",
+                "value": "OFF",
+                "valueType": "str"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "",
+        "x": 1070,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "06b7860eb407ecd2",
+        "type": "mqtt in",
+        "z": "9007e14c5bdddbd1",
+        "g": "61b92c33227f1472",
+        "name": "",
+        "topic": "cursomqtt/laybet_MKR_1500/ledamarillo",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "32b45af9a263ab01",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 820,
+        "y": 260,
+        "wires": [
+            [
+                "d47050bcb6bad12a",
+                "1066e7c3e06487ea"
+            ]
+        ]
+    },
+    {
+        "id": "d47050bcb6bad12a",
+        "type": "debug",
+        "z": "9007e14c5bdddbd1",
+        "g": "61b92c33227f1472",
+        "name": "debug 21",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1080,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "1066e7c3e06487ea",
+        "type": "ui_led",
+        "z": "9007e14c5bdddbd1",
+        "g": "61b92c33227f1472",
+        "order": 3,
+        "group": "aba579d46f81eb65",
+        "width": 0,
+        "height": 0,
+        "label": "Led Amarillo",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#ffff00",
+                "value": "ON",
+                "valueType": "str"
+            },
+            {
+                "color": "#000000",
+                "value": "OFF",
+                "valueType": "str"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "",
+        "x": 1070,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "7250c754c2683b61",
+        "type": "mqtt out",
+        "z": "9007e14c5bdddbd1",
+        "g": "e206f9e4065ce243",
+        "name": "",
+        "topic": "cursomqtt/laybet_MKR_1500/ledrojo",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "32b45af9a263ab01",
+        "x": 750,
+        "y": 560,
+        "wires": []
+    },
+    {
+        "id": "72e6a90d8e9dcbfd",
+        "type": "switch",
+        "z": "9007e14c5bdddbd1",
+        "g": "e206f9e4065ce243",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "gt",
+                "v": "22",
+                "vt": "str"
+            },
+            {
+                "t": "else"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 210,
+        "y": 560,
+        "wires": [
+            [
+                "99ea831974ce7c5f"
+            ],
+            [
+                "f9e9c56ce242eec8"
+            ]
+        ]
+    },
+    {
+        "id": "8666a2d694903ab1",
+        "type": "switch",
+        "z": "9007e14c5bdddbd1",
+        "g": "e206f9e4065ce243",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "lt",
+                "v": "500",
+                "vt": "str"
+            },
+            {
+                "t": "else"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 210,
+        "y": 640,
+        "wires": [
+            [
+                "22edfcd6386bca6f"
+            ],
+            [
+                "4c5209c8ac9babd7"
+            ]
+        ]
+    },
+    {
+        "id": "99ea831974ce7c5f",
+        "type": "change",
+        "z": "9007e14c5bdddbd1",
+        "g": "e206f9e4065ce243",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "ON",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 360,
+        "y": 540,
+        "wires": [
+            [
+                "6cba8af14236b0dc"
+            ]
+        ]
+    },
+    {
+        "id": "f9e9c56ce242eec8",
+        "type": "change",
+        "z": "9007e14c5bdddbd1",
+        "g": "e206f9e4065ce243",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "OFF",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 360,
+        "y": 580,
+        "wires": [
+            [
+                "6cba8af14236b0dc"
+            ]
+        ]
+    },
+    {
+        "id": "7d8833d6d6cdb0c1",
+        "type": "mqtt out",
+        "z": "9007e14c5bdddbd1",
+        "g": "e206f9e4065ce243",
+        "name": "",
+        "topic": "cursomqtt/laybet_MKR_1500/ledamarillo",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "32b45af9a263ab01",
+        "x": 760,
+        "y": 640,
+        "wires": []
+    },
+    {
+        "id": "22edfcd6386bca6f",
+        "type": "change",
+        "z": "9007e14c5bdddbd1",
+        "g": "e206f9e4065ce243",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "ON",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 360,
+        "y": 620,
+        "wires": [
+            [
+                "64fd22f2aa640bd3"
+            ]
+        ]
+    },
+    {
+        "id": "4c5209c8ac9babd7",
+        "type": "change",
+        "z": "9007e14c5bdddbd1",
+        "g": "e206f9e4065ce243",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "OFF",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 360,
+        "y": 660,
+        "wires": [
+            [
+                "64fd22f2aa640bd3"
+            ]
+        ]
+    },
+    {
+        "id": "9694314e26bf9cfa",
+        "type": "ui_switch",
+        "z": "9007e14c5bdddbd1",
+        "g": "e206f9e4065ce243",
+        "name": "",
+        "label": "led builtin",
+        "tooltip": "",
+        "group": "aba579d46f81eb65",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "ON",
+        "onvalueType": "str",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "OFF",
+        "offvalueType": "str",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 240,
+        "y": 720,
+        "wires": [
+            [
+                "f1c8f991879cc5a9"
+            ]
+        ]
+    },
+    {
+        "id": "f1c8f991879cc5a9",
+        "type": "mqtt out",
+        "z": "9007e14c5bdddbd1",
+        "g": "e206f9e4065ce243",
+        "name": "",
+        "topic": "cursomqtt/laybet_MKR_1500/ledbuiltin",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "32b45af9a263ab01",
+        "x": 490,
+        "y": 720,
+        "wires": []
+    },
+    {
+        "id": "6cba8af14236b0dc",
+        "type": "rbe",
+        "z": "9007e14c5bdddbd1",
+        "g": "e206f9e4065ce243",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 530,
+        "y": 560,
+        "wires": [
+            [
+                "7250c754c2683b61"
+            ]
+        ]
+    },
+    {
+        "id": "64fd22f2aa640bd3",
+        "type": "rbe",
+        "z": "9007e14c5bdddbd1",
+        "g": "e206f9e4065ce243",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 530,
+        "y": 640,
+        "wires": [
+            [
+                "7d8833d6d6cdb0c1"
+            ]
+        ]
+    },
+    {
+        "id": "911197635ae17d0e",
+        "type": "mqtt in",
+        "z": "9007e14c5bdddbd1",
+        "g": "7034096bc0b125e9",
+        "name": "",
+        "topic": "cursomqtt/laybet_MKR_1500/pulsador",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "32b45af9a263ab01",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 190,
+        "y": 840,
+        "wires": [
+            [
+                "a14c155d2f05f8e7"
+            ]
+        ]
+    },
+    {
+        "id": "a14c155d2f05f8e7",
+        "type": "counter",
+        "z": "9007e14c5bdddbd1",
+        "g": "7034096bc0b125e9",
+        "name": "",
+        "init": "0",
+        "step": "1",
+        "lower": null,
+        "upper": null,
+        "mode": "increment",
+        "outputs": "1",
+        "x": 460,
+        "y": 840,
+        "wires": [
+            [
+                "3062ebd81b8e86a9"
+            ]
+        ]
+    },
+    {
+        "id": "9cea06475349a8c3",
+        "type": "ui_button",
+        "z": "9007e14c5bdddbd1",
+        "g": "7034096bc0b125e9",
+        "name": "",
+        "group": "d2aa21de1eba43db",
+        "order": 3,
+        "width": 2,
+        "height": 1,
+        "passthru": false,
+        "label": "Reset",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "0",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 110,
+        "y": 900,
+        "wires": [
+            [
+                "506c81b5ed1aad3c"
+            ]
+        ]
+    },
+    {
+        "id": "6d0f5ebc4783cc14",
+        "type": "ui_gauge",
+        "z": "9007e14c5bdddbd1",
+        "g": "7034096bc0b125e9",
+        "name": "",
+        "group": "d2aa21de1eba43db",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "gtype": "donut",
+        "title": "gauge",
+        "label": "pulsos",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "30",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "20",
+        "seg2": "25",
+        "className": "",
+        "x": 810,
+        "y": 840,
+        "wires": []
+    },
+    {
+        "id": "3062ebd81b8e86a9",
+        "type": "change",
+        "z": "9007e14c5bdddbd1",
+        "g": "7034096bc0b125e9",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "count",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 640,
+        "y": 840,
+        "wires": [
+            [
+                "6d0f5ebc4783cc14"
+            ]
+        ]
+    },
+    {
+        "id": "506c81b5ed1aad3c",
+        "type": "change",
+        "z": "9007e14c5bdddbd1",
+        "g": "7034096bc0b125e9",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "reset",
+                "pt": "msg",
+                "to": "ok",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 320,
+        "y": 900,
+        "wires": [
+            [
+                "a14c155d2f05f8e7"
+            ]
+        ]
+    },
+    {
+        "id": "e1f2e41b2956fc0b",
+        "type": "mqtt in",
+        "z": "9007e14c5bdddbd1",
+        "g": "51bb0170c8339b2f",
+        "name": "",
+        "topic": "cursomqtt/laybet_MKR_1500/#",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "32b45af9a263ab01",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 170,
+        "y": 1000,
+        "wires": [
+            [
+                "76c61253af5f5f03"
+            ]
+        ]
+    },
+    {
+        "id": "57a3896212fc17a8",
+        "type": "debug",
+        "z": "9007e14c5bdddbd1",
+        "g": "51bb0170c8339b2f",
+        "name": "debug 22",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 560,
+        "y": 1000,
+        "wires": []
+    },
+    {
+        "id": "03c598ab7cb79a4b",
+        "type": "influxdb out",
+        "z": "9007e14c5bdddbd1",
+        "g": "51bb0170c8339b2f",
+        "influxdb": "fe8cb7ea3f6ce3ed",
+        "name": "",
+        "measurement": "laybet",
+        "precision": "",
+        "retentionPolicy": "",
+        "database": "database",
+        "precisionV18FluxV20": "ms",
+        "retentionPolicyV18Flux": "",
+        "org": "aprendiendonodered",
+        "bucket": "curso 5G",
+        "x": 690,
+        "y": 1040,
+        "wires": []
+    },
+    {
+        "id": "76c61253af5f5f03",
+        "type": "change",
+        "z": "9007e14c5bdddbd1",
+        "g": "51bb0170c8339b2f",
+        "name": "Añade Tags",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "[{\"value\":$string(payload)},{\"tag\":topic}]",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 390,
+        "y": 1000,
+        "wires": [
+            [
+                "57a3896212fc17a8",
+                "03c598ab7cb79a4b"
             ]
         ]
     }

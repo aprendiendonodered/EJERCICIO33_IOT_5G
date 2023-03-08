@@ -44,7 +44,9 @@
             "201b186352651b59",
             "fd65a545c7084e45",
             "afc6e98aa08776dc",
-            "80567de1dde59fec"
+            "80567de1dde59fec",
+            "71fb0b032fed6f29",
+            "d1a88f77182f466b"
         ],
         "x": 14,
         "y": 19,
@@ -716,10 +718,8 @@
         "y": 100,
         "wires": [
             [
-                "43c4f0ded09ab579",
                 "1e3adba6ba166433",
-                "7f372ae8421099a1",
-                "bda292aba1946542"
+                "d1a88f77182f466b"
             ]
         ]
     },
@@ -894,8 +894,7 @@
         "wires": [
             [
                 "712bbfd54a05ea20",
-                "a5b62dc53528050f",
-                "720d5f5ddb70e01c"
+                "71fb0b032fed6f29"
             ]
         ]
     },
@@ -1808,6 +1807,69 @@
         "wires": [
             [
                 "c6ebba5b4d5f6159"
+            ]
+        ]
+    },
+    {
+        "id": "71fb0b032fed6f29",
+        "type": "switch",
+        "z": "099b2475ef64758f",
+        "g": "5c53e2699a5e9d13",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "gt",
+                "v": "100",
+                "vt": "str"
+            },
+            {
+                "t": "else"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 310,
+        "y": 280,
+        "wires": [
+            [],
+            [
+                "a5b62dc53528050f",
+                "720d5f5ddb70e01c"
+            ]
+        ]
+    },
+    {
+        "id": "d1a88f77182f466b",
+        "type": "switch",
+        "z": "099b2475ef64758f",
+        "g": "5c53e2699a5e9d13",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "lt",
+                "v": "13",
+                "vt": "str"
+            },
+            {
+                "t": "else"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 310,
+        "y": 140,
+        "wires": [
+            [],
+            [
+                "7f372ae8421099a1",
+                "bda292aba1946542",
+                "43c4f0ded09ab579"
             ]
         ]
     },
